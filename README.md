@@ -20,7 +20,9 @@ the desktop rather than in a few apps.
 
 Both live in this repo under [`linux/themes/`](linux/themes) and
 [`windows/schemes/`](windows/schemes). Prefer a download over cloning? Grab a
-per-pack archive from the Releases page (see [Releases](#releases) below).
+per-pack archive from the
+[Releases page](https://github.com/0443n/dota2-cursors/releases) (see
+[Releases](#releases) below).
 
 ## Packs
 
@@ -52,7 +54,9 @@ Each row shows, left to right: arrow, link, crosshair, move, drag, not-allowed, 
 
 ## Releases
 
-Each release ships one drop-in archive per pack per platform:
+Grab archives from the
+[Releases page](https://github.com/0443n/dota2-cursors/releases). Each release
+ships one drop-in archive per pack per platform:
 
 - **Linux:** `<pack>.tar.gz` - `tar xf <pack>.tar.gz -C ~/.local/share/icons/`,
   then pick it in your cursor settings.

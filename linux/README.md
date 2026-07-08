@@ -15,7 +15,8 @@ cd dota2-cursors/linux
 ./install.sh dota2-acid-hydra --apply    # install and set active
 ```
 
-Or from a release archive, without cloning:
+Or from a [release archive](https://github.com/0443n/dota2-cursors/releases),
+without cloning:
 
 ```bash
 tar xf dota2-acid-hydra.tar.gz -C ~/.local/share/icons/

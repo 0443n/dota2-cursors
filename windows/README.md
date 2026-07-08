@@ -9,7 +9,8 @@ game cursors, repackaged as installable schemes.
 ## Install
 
 1. Get a pack folder from `schemes/` (clone the repo, or download the pack's
-   `.zip` from a release and extract it).
+   `.zip` from a [release](https://github.com/0443n/dota2-cursors/releases) and
+   extract it).
 2. Open the folder, right-click `install.inf`, and choose **Install**. This
    copies the cursors and registers the scheme.
 3. Open **Settings -> Bluetooth & devices -> Mouse -> Additional mouse settings
@@ -33,8 +34,9 @@ Each scheme has seven cursor files mapped onto Windows' cursor slots:
 | `unavailable` | Unavailable (No) |
 | `help` | Help Select |
 
-Files are `.ani` for most packs; the Emerald Sea and Guardian of the Holy Flame
-packs ship as `.cur` because Dota stores those two as static bitmaps.
+Files are `.ani` for most packs. The bitmap packs (Emerald Sea, Guardian of the
+Holy Flame, and the five International packs) ship as `.cur`, because Dota stores
+those as static bitmaps.
 
 The cursors are 32px (the size Dota ships), so on a high-DPI display you may want
 a larger cursor size in Windows settings. They won't scale as smoothly as the
