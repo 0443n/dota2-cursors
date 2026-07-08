@@ -1,0 +1,10 @@
+# Local build toolchain - not published (this repo ships the packs, not the tool)
+.venv/
+__pycache__/
+*.pyc
+build.py
+build.sh
+preview.py
+requirements.txt
+dist/
+*.tar.gz
