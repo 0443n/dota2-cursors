@@ -41,6 +41,11 @@ was made for is in parentheses.
 | ![](previews/dota2-emerald-sea.png) | Emerald Sea | `dota2-emerald-sea` |
 | ![](previews/dota2-guardian-of-the-holy-flame.png) | Guardian of the Holy Flame (Sven) | `dota2-guardian-of-the-holy-flame` |
 | ![](previews/dota2-the-summit-3.png) | The Summit 3 | `dota2-the-summit-3` |
+| ![](previews/dota2-the-international-2015.png) | The International 2015 | `dota2-the-international-2015` |
+| ![](previews/dota2-the-international-2016.png) | The International 2016 | `dota2-the-international-2016` |
+| ![](previews/dota2-the-international-2017.png) | The International 2017 | `dota2-the-international-2017` |
+| ![](previews/dota2-the-international-2018.png) | The International 2018 | `dota2-the-international-2018` |
+| ![](previews/dota2-the-international-2019.png) | The International 2019 | `dota2-the-international-2019` |
 | ![](previews/dota2-default.png) | Default | `dota2-default` |
 
 Each row shows, left to right: arrow, link, crosshair, move, drag, not-allowed, help.
