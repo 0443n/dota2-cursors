@@ -1,0 +1,55 @@
+name: Release
+
+# Push a tag like v1.1 and this builds the drop-in archives from the committed
+# themes/schemes and publishes them as a GitHub Release. No game files or build
+# tooling needed: the packs are already in the repo, so this only tars/zips them.
+#
+#   git tag v1.1
+#   git push origin v1.1
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Build archives
+        run: |
+          set -euo pipefail
+          mkdir -p dist/linux dist/windows
+
+          # One .tar.gz per Linux theme. tar keeps the alias symlinks as symlinks.
+          for theme in linux/themes/*/; do
+            name="$(basename "$theme")"
+            tar -C linux/themes -czf "dist/linux/$name.tar.gz" "$name"
+          done
+          tar -C linux/themes -czf "dist/dota2-cursors-linux-all.tar.gz" .
+
+          # One .zip per Windows scheme.
+          for scheme in windows/schemes/*/; do
+            name="$(basename "$scheme")"
+            (cd windows/schemes && zip -qr "$GITHUB_WORKSPACE/dist/windows/$name.zip" "$name")
+          done
+          (cd windows/schemes && zip -qr "$GITHUB_WORKSPACE/dist/dota2-cursors-windows-all.zip" .)
+
+          echo "built $(find dist -type f | wc -l) archives"
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/linux/*.tar.gz
+            dist/windows/*.zip
+            dist/dota2-cursors-linux-all.tar.gz
+            dist/dota2-cursors-windows-all.zip
+          generate_release_notes: true
+          fail_on_unmatched_files: true
