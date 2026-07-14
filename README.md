@@ -48,6 +48,12 @@ was made for is in parentheses.
 | ![](previews/dota2-the-international-2017.png) | The International 2017 | `dota2-the-international-2017` |
 | ![](previews/dota2-the-international-2018.png) | The International 2018 | `dota2-the-international-2018` |
 | ![](previews/dota2-the-international-2019.png) | The International 2019 | `dota2-the-international-2019` |
+| ![](previews/dota2-the-devotions-of-dragonus.png) | The Devotions of Dragonus (Skywrath Mage) | `dota2-the-devotions-of-dragonus` |
+| ![](previews/dota2-the-devotions-of-dragonus-alt.png) | The Devotions of Dragonus, alt style (Skywrath Mage) | `dota2-the-devotions-of-dragonus-alt` |
+| ![](previews/dota2-the-resurrection-of-shen.png) | The Resurrection of Shen (Vengeful Spirit) | `dota2-the-resurrection-of-shen` |
+| ![](previews/dota2-the-resurrection-of-shen-alt.png) | The Resurrection of Shen, alt style (Vengeful Spirit) | `dota2-the-resurrection-of-shen-alt` |
+| ![](previews/dota2-the-resurrection-of-shen-imperia.png) | The Resurrection of Shen, Imperia style (Vengeful Spirit) | `dota2-the-resurrection-of-shen-imperia` |
+| ![](previews/dota2-diretide-2020.png) | Diretide 2020 | `dota2-diretide-2020` |
 | ![](previews/dota2-default.png) | Default | `dota2-default` |
 
 Each row shows, left to right: arrow, link, crosshair, move, drag, not-allowed, help.

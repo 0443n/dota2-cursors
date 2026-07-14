@@ -34,9 +34,10 @@ Each scheme has seven cursor files mapped onto Windows' cursor slots:
 | `unavailable` | Unavailable (No) |
 | `help` | Help Select |
 
-Files are `.ani` for most packs. The bitmap packs (Emerald Sea, Guardian of the
-Holy Flame, and the five International packs) ship as `.cur`, because Dota stores
-those as static bitmaps.
+Files are `.ani` for most of the workshop packs, since that's how Dota ships
+them. The packs Dota stores as static bitmaps instead (Emerald Sea, Guardian of
+the Holy Flame, and Valve's own International, arcana, and Diretide sets) come as
+`.cur`. A pack can mix both.
 
 The cursors are 32px (the size Dota ships), so on a high-DPI display you may want
 a larger cursor size in Windows settings. They won't scale as smoothly as the
