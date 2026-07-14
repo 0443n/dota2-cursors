@@ -29,6 +29,9 @@ per-pack archive from the
 Names are the real store names, taken from Dota's item files. The hero each pack
 was made for is in parentheses.
 
+<details>
+<summary><b>All 24 packs</b> - click to expand</summary>
+
 | Preview | Pack | Folder |
 |---------|------|--------|
 | ![](previews/dota2-acid-hydra.png) | Acid Hydra (Venomancer) | `dota2-acid-hydra` |
@@ -57,6 +60,8 @@ was made for is in parentheses.
 | ![](previews/dota2-default.png) | Default | `dota2-default` |
 
 Each row shows, left to right: arrow, link, crosshair, move, drag, not-allowed, help.
+
+</details>
 
 ## Releases
 
